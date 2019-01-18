@@ -1,7 +1,11 @@
 # Swissup Admin Autologin
 
-The simple extension that allows to perform admin log in automatically without asking for login/password. 
+The simple extension that allows to perform admin log in automatically without asking for login/password.
 Useful for demo purposes. Not recommended to use on production environment.
+
+### Usage
+
+https://[you.demo.site/backend/]?#username=[demoadmin]&password=[notsecretpass]
 
 ### Installation
 
