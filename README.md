@@ -9,7 +9,7 @@ Useful for demo purposes. Not recommended to use on production environment.
 cd <magento_root>
 composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
 composer require swissup/module-admin-autologin --prefer-source
-bin/magento module:enable Swissup_AdminAutoLogin
+bin/magento module:enable Swissup_AdminAutologin
 bin/magento setup:upgrade
 bin/magento setup:static-content:deploy -f --area=adminhtml
 bin/magento cache:flush
